@@ -31,12 +31,6 @@ function initMap() {
         (function(layer, properties) {
           // This creates numerical icons to match the ID numbers
           // OR remove the next 6 lines for default blue Leaflet markers
-    var greenMarker = L.ExtraMarkers.icon({
-      icon: 'fa-tree',
-       markerColor: 'green',
-       shape: 'penta',
-       prefix: 'fa'
-    });
           // This creates the contents of each chapter from the GeoJSON data. Unwanted items can be removed, and new ones can be added
           var chapter = $('<p></p>', {
             text: feature.properties['chapter'],
