@@ -22,7 +22,7 @@ function initMap() {
 
   // This customizes link to view source code; add your own GitHub repository
   map.attributionControl
-  .setPrefix('View <a href="http://github.com/jackdougherty/leaflet-storymap" target="_blank">code on GitHub</a>, created with <a href="http://leafletjs.com" title="A JS library for interactive maps">Leaflet</a>');
+  .setPrefix('View <a href="http://github.com/cherylhughey" target="_blank">code on GitHub</a>, created with <a href="http://leafletjs.com" title="A JS library for interactive maps">Leaflet</a>');
 
   // This loads the GeoJSON map data file from a local folder
   $.getJSON('map.geojson', function(data) {
@@ -84,7 +84,6 @@ function initMap() {
               $('.image-container').removeClass("inFocus").addClass("outFocus");
               $('div#container' + feature.properties['id']).addClass("inFocus").removeClass("outFocus");
 
-              map.flyTo([feature.geometry.coordinates[1], feature.geometry.coordinates[0] ], feature.properties['zoom']);
             }
           });
 
