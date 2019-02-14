@@ -1,7 +1,7 @@
 
 
 ## Credits
--Thank you to https://github.com/slead for his space-at-the-bottom work solution for issue #58. 
+- Thank you to https://github.com/slead for his space-at-the-bottom work solution for issue #58. 
    https://github.com/DataVizForAll/leaflet-storymap/issues/58
 - Original repository: https://github.com/DataVizForAll/leaflet-storymap
 - Directons on how to use this fork: http://stephane-mottin.blogspot.com/2016/12/analysis-of-js-create-your-own-storymap.html
