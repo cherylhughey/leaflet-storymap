@@ -32,9 +32,9 @@ function initMap() {
           // This creates numerical icons to match the ID numbers
           // OR remove the next 6 lines for default blue Leaflet markers
           var numericMarker = L.ExtraMarkers.icon({
-            icon: 'fa-number',
+            icon: 'fa-tree',
             number: feature.properties['id'],
-            markerColor: 'blue'
+            markerColor: 'green'
           });
           layer.setIcon(numericMarker);
 
