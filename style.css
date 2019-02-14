@@ -40,7 +40,7 @@ body {
 }
 
 #contents .space-at-the-bottom {
-    height: 160px;
+    height: 170px;
     margin: 0px;
     text-align: center;
     padding-top: 0px;
@@ -75,7 +75,7 @@ h3 {
     /* margin + padding = imageContainerMargin in script.js */
     /* Important for scrolling! */
     margin: 50px 0 0 0;
-    padding: 20px 0 0 0;
+    padding: 10px 0 0 0;
     text-align: center;
 }
 
