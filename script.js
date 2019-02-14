@@ -33,7 +33,7 @@ function initMap() {
           // OR remove the next 6 lines for default blue Leaflet markers
           var greenMarker = L.ExtraMarkers.icon({
             icon: 'fa-tree',
-            markerColor: 'green'
+            markerColor: 'green',
             shape: 'penta'
           });
           layer.setIcon(numericMarker);
