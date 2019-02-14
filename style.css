@@ -35,12 +35,12 @@ body {
 }
 
 #contents .space-at-the-top {
-    height: 20px;
+    height: 30px;
     margin: 0px;
 }
 
 #contents .space-at-the-bottom {
-    height: 170px;
+    height: 290px;
     margin: 0px;
     text-align: center;
     padding-top: 30px;
