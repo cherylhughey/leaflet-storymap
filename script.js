@@ -34,7 +34,6 @@ function initMap() {
           var greenMarker = L.ExtraMarkers.icon({
             icon: 'fa-tree',
             markerColor: 'green'
-            prefix: 'fa'
           });
           layer.setIcon(numericMarker);
 
