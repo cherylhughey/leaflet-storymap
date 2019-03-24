@@ -1,4 +1,5 @@
-I forked this, worked with it a bit and realized there was problems possibly with the original respository that may have been abandoned. The map has some issues that I'm trying to resolve.
+I forked this, worked with it a bit and realized there was problems possibly with the original respository that may have been abandoned. The map has some issues that I'm trying to resolve. https://github.com/DataVizForAll/leaflet-storymap/issues/59
+When you click on a market, the map will pull up the correct description to the right, but the map itself scrolls out of place. 
 
 ## Credits
 - Thank you to https://github.com/slead for his space-at-the-bottom work solution for issue #58. 
