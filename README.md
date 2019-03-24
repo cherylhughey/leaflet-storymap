@@ -1,5 +1,6 @@
-I forked this, worked with it a bit and realized there was problems possibly with the original respository that may have been abandoned. The map has some issues that I'm trying to resolve. https://github.com/DataVizForAll/leaflet-storymap/issues/59
-When you click on a market, the map will pull up the correct description to the right, but the map itself scrolls out of place. 
+This is a an older repository that I forked and realized it has some challenges.
+1) It does not work well on mobile.
+2) The marker clicking is not accurate. I have turned off the marketing clicking for now, as the original repository does not have an answer for the issue.
 
 ## Credits
 - Thank you to https://github.com/slead for his space-at-the-bottom work solution for issue #58. 
